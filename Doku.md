@@ -41,3 +41,16 @@ Falls dann noch genügend Zeit ist, kann noch eine Docker-Registry eingebunden w
 Der heutige Task besteht darin, das Java Spring-Boot Backend aufzusetzen. 
 Zudem soll Lombock eingebunden werden. 
 
+04.06.24
+-------
+Heute soll die Datenbank erstellt werden. 
+Dazu ein docker-compose file erstellen für die Lokale Entwicklung.
+
+Der nächste Task wird sein, die Verbindung von der DB zum Backend und
+vom Backend zum Frontend herzustellen
+
+11.06.24
+--------
+
+Die Konfiguration ist noch abzuschliessen. 
+Danach geht es an die implementierung der Tasks.  
