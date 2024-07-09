@@ -1,4 +1,3 @@
-# Basis-Image
 FROM postgres:13
 LABEL authors="Kevin BBW"
 
