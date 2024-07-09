@@ -18,7 +18,7 @@ Techstack
 - Java 
 - Spring Boot
 - Tailwind
-- React (noch offen)
+- React
 
 Dailys
 ======
@@ -54,3 +54,8 @@ vom Backend zum Frontend herzustellen
 
 Die Konfiguration ist noch abzuschliessen. 
 Danach geht es an die implementierung der Tasks.  
+
+09.07.24
+--------
+
+Heute soll mit dem Deployment begonnen werden
