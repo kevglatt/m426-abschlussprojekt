@@ -1,3 +1,21 @@
-INSERT INTO person (name)
-VALUES ('example1'),
-       ('example2');
+INSERT INTO task (title, description, completed, priority, due, created_at)
+VALUES ('Task 1', 'Description for task 1', FALSE, 'HIGH', '2024-07-01', '2024-06-01 10:00:00'),
+       ('Task 2', 'Description for task 2', TRUE, 'MEDIUM', '2024-07-02', '2024-06-02 11:00:00'),
+       ('Task 3', 'Description for task 3', FALSE, 'LOW', '2024-07-03', '2024-06-03 12:00:00'),
+       ('Task 4', 'Description for task 4', TRUE, 'HIGH', '2024-07-04', '2024-06-04 13:00:00'),
+       ('Task 5', 'Description for task 5', FALSE, 'MEDIUM', '2024-07-05', '2024-06-05 14:00:00'),
+       ('Task 6', 'Description for task 6', TRUE, 'LOW', '2024-07-06', '2024-06-06 15:00:00'),
+       ('Task 7', 'Description for task 7', FALSE, 'HIGH', '2024-07-07', '2024-06-07 16:00:00'),
+       ('Task 8', 'Description for task 8', TRUE, 'MEDIUM', '2024-07-08', '2024-06-08 17:00:00'),
+       ('Task 9', 'Description for task 9', FALSE, 'LOW', '2024-07-09', '2024-06-09 18:00:00'),
+       ('Task 10', 'Description for task 10', TRUE, 'HIGH', '2024-07-10', '2024-06-10 19:00:00'),
+       ('Task 11', 'Description for task 11', FALSE, 'MEDIUM', '2024-07-11', '2024-06-11 20:00:00'),
+       ('Task 12', 'Description for task 12', TRUE, 'LOW', '2024-07-12', '2024-06-12 21:00:00'),
+       ('Task 13', 'Description for task 13', FALSE, 'HIGH', '2024-07-13', '2024-06-13 22:00:00'),
+       ('Task 14', 'Description for task 14', TRUE, 'MEDIUM', '2024-07-14', '2024-06-14 23:00:00'),
+       ('Task 15', 'Description for task 15', FALSE, 'LOW', '2024-07-15', '2024-06-15 08:00:00'),
+       ('Task 16', 'Description for task 16', TRUE, 'HIGH', '2024-07-16', '2024-06-16 09:00:00'),
+       ('Task 17', 'Description for task 17', FALSE, 'MEDIUM', '2024-07-17', '2024-06-17 10:00:00'),
+       ('Task 18', 'Description for task 18', TRUE, 'LOW', '2024-07-18', '2024-06-18 11:00:00'),
+       ('Task 19', 'Description for task 19', FALSE, 'HIGH', '2024-07-19', '2024-06-19 12:00:00'),
+       ('Task 20', 'Description for task 20', TRUE, 'MEDIUM', '2024-07-20', '2024-06-20 13:00:00');

@@ -1,30 +1,31 @@
 import React, {useEffect} from 'react';
 import './App.css';
+import {TaskModel} from "./models/task.model";
 import TaskCard from "./components/task-card";
-import {PersonModel} from "./models/person.model";
 
 
 function App() {
 
-    const [persons, setPersons] = React.useState<PersonModel[]>([]);
+    const [tasks, setTasks] = React.useState<TaskModel[]>([]);
     useEffect(() => {
-        fetch("http://localhost:8080/persons")
-            .then(res =>  res.json())
+        fetch("http://localhost:8080/tasks")
+            .then(res => res.json())
             .then(data => {
                 console.log(data);
-                setPersons(data)
+                setTasks(data)
             });
-    },[]);
+    }, []);
 
     return (
-      <div className="App">
-          <p>hallo</p>
-          <TaskCard/>
-          {persons.map(
-              person => <p key={person.id}>{person.name}</p>
-          )}
-      </div>
-  );
+        <div className="App">
+            <div className={"max-w-md mx-auto px-lg-5"}>
+                {tasks.map(
+                    task =>
+                        <TaskCard key={task.id} task={task}/>
+                )}
+            </div>
+        </div>
+    );
 }
 
 export default App;
