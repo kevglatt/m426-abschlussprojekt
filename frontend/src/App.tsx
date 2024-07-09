@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import './App.css';
 import {TaskModel} from "./models/task.model";
+import TaskCard from "./components/task-card";
 
 
 function App() {
@@ -17,10 +18,12 @@ function App() {
 
     return (
         <div className="App">
-            {tasks.map(
-                task =>
-                    <p key={task.id}>{task.title}</p>
-            )}
+            <div className={"max-w-md mx-auto px-lg-5"}>
+                {tasks.map(
+                    task =>
+                        <TaskCard key={task.id} task={task}/>
+                )}
+            </div>
         </div>
     );
 }
