@@ -91,14 +91,36 @@ fertiggestellt werden.
   - Sprints
 - Tickets ausführlicher beschreiben
 - Deployment in der Cloud
-  - Konfiguration App Service
+  - Frontend Deployment
+  - Backend Deployment
+  - Datenbank Deployment
 
 ## Review
 ### Erledigt
 - Dokumentation der Agile Prozesse erweitern
   - Dailies 
   - Sprints
+- Deployment in der Cloud
+  - Frontend Deployment
+#### Nicht eingeplant
+- Continuous Deployment GitHub Workflow
+### Abgebrochen
+- Tickets ausführlicher beschreiben
+- Deployment in der Cloud
+  - Backend Deployment
+  - Datenbank Deployment
 
 ### Reflexion
 - Angesichts der Menge an anderen Arbeiten, die noch erledigt werden müssen, 
-wird das Ergänzen der Ticketbeschreibung weggelassen 
+wird das Ergänzen der Ticketbeschreibung weggelassen, ebenso das Deployment des 
+Backends und der Datenbank.
+- Die Azure Container App mit dem Frontend Container aus der Azure Container Registry funktioniert
+und kann über den Link besucht werden https://frontend.jollyforest-64db3974.eastus.azurecontainerapps.io
+- Ursprünglich nicht eingeplant war das Erstellen des Continuous Deployment mit dem GitHub Workflow. 
+Ging erstaunlicherweise recht schnell und funktionierte auf Anhieb.
+
+#### Abschluss vom Projekt
+Ich bin froh, habe ich die Lehrpersonen frühestmöglich über die belastende Situation informiert. Die zusätzliche Zeit 
+bis zur Abgabe war sehr wichtig, dass ich mich auf die Vormaturitätsprüfungen in der BMS konzentrieren, und die 
+Projekte meinen Ansprüchen gerecht fertigstellen konnte. Ich hätte gerne noch etwas mehr Zeit für das Deployment aufgewendet,
+um zu sehen, wie man ein solches Projekt korrekt und vollständig publiziert. 
