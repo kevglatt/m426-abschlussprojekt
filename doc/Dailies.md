@@ -69,3 +69,22 @@ Heute muss die Dokumentation der Scrum Prozesse gemäss den Vorgaben erweitert/v
 Um die Übersicht zu verbessern, sollen die Projektdefinition, die Sprints und die Dailies in separate 
 Dateien aufgegliedert werden. Nachdem die Doku ergänzt wurde, kann das Deployment für das Modul 347 
 dementsprechend dokumentiert werden. 
+
+23.07.24
+-------
+
+Die Dokumentation konnte gestern so weit ergänzt werden, dass ich heute mit dem Deployment beginnen kann. 
+Ich habe mir vorgenommen einen Container Service von Azure dafür zu verwenden, da ich die Images bereits auf 
+die Azure Container Registry gepusht habe. Leider haben wir im modul nur den Container Service von AWS verwendet, 
+weshalb ich mich zuerst einlesen muss, welcher Service von Azure für das Projekt geeignet ist.
+
+24.07.24
+--------
+Ich konnte gestern das Frontend in einer Azure Container App publizieren. Beim Erstellen des Service
+wollte ich rollenbasierte Zugriffsrechte zuweisen, damit die Azure Container App auf die Azure Container Registry
+zugreifen kann. Ich musste aber feststellen, dass das sehr komplex ist, weshalb ich einfach Adminrechte zugewiesen habe.
+Zum Erstellen der continuous integration habe über Azure einen GitHub Workflow erzeugt, der direkt funktioniert hat. 
+Ich habe mich dagegen entschieden, das Backend und die Datenbank zu deployen. Grund dafür ist,
+dass ich mit vielen Konfigurationsproblemen rechne, welche viel Zeit in Anspruch nehmen würden. 
+
+Ich schliesse das Abschlussprojekt und das dazugehörende Deployment somit ab.
